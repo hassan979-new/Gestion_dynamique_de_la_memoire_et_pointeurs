@@ -30,7 +30,7 @@ public:
     }
 };
 
-void supprimerContact(Contact **carnet, int &n, string nom)
+void supprimerContact(Contact **&carnet, int &n, string nom)
 {
     int index = -1;
 
@@ -51,19 +51,22 @@ void supprimerContact(Contact **carnet, int &n, string nom)
 
     delete carnet[index];
 
-    n--;
 
-    Contact **carnet2 = new Contact *[n];
+    Contact **carnet2 = new Contact *[n-1];
 
-    for (size_t i = 0; i < size_t(n); i++)
+    for (size_t i = 0 , j = 0; i < size_t(n); i++)
     {
-        carnet2[i] = carnet[i];
+        if (i != index)
+        {
+            carnet2[j++] = carnet[i];
+        }
+        
     }
 
     delete[] carnet;
 
     carnet = carnet2;
-
+    n--;
     cout << "Conatct " << nom << " supprime" << endl;
 }
 
