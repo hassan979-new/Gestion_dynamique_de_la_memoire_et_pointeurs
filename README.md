@@ -1,5 +1,5 @@
 
-# 🧮 Héritage multiple
+# 🧮 Gestion dynamique de la mémoire et pointeurs
 
 ## 📘 Description
 
