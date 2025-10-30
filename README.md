@@ -118,13 +118,20 @@ Menu interactif avec 3 options :
 
 
 ###  Création dynamique d’un tableau d'entiers :
-
+- <img width="480" height="504" alt="image" src="https://github.com/user-attachments/assets/dea1deb5-db2e-4737-ba25-ba8e21e1a13a" />
 ### Gestion dynamique d’un objet : 
-
+- <img width="480" height="504" alt="image" src="https://github.com/user-attachments/assets/6b516bcf-ad62-4bf2-9a55-22f4e983841a" />
 ###  Tableau dynamique d’objets :
-
+- <img width="480" height="504" alt="image" src="https://github.com/user-attachments/assets/a93ff8e3-b3c8-4008-808a-e97e75b5fef3" />
 ### Gestion d’un carnet de Contacts :
-
+##### choix = 1:
+- <img width="480" height="504" alt="image" src="https://github.com/user-attachments/assets/e2839b42-d001-4d0b-b9e3-a74e6b4f6d4b" />
+##### choix = 2:
+- <img width="480" height="504" alt="image" src="https://github.com/user-attachments/assets/18f93c8a-84d1-4e8e-ad10-d01681363d3f" />
+##### choix = 3:
+- <img width="480" height="504" alt="image" src="https://github.com/user-attachments/assets/1f643850-9459-45bf-8e77-093f6878965f" />
+##### choix = 0:
+- <img width="480" height="504" alt="image" src="https://github.com/user-attachments/assets/1ff1f79d-b321-41b0-94f6-cab52a99bef6" />
 ## 💡 Concepts Practiced
 
 - Allocation dynamique avec new et delete
